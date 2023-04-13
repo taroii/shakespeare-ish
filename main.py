@@ -14,9 +14,6 @@ from flask import Flask, request, redirect, url_for, render_template, session
 from utils import get_base_url
 import requests, model
 
-API_URL = "https://api-inference.huggingface.co/models/taroii/sonnet-generator"
-headers = {"Authorization": "Bearer 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"}
-
 port = 12345
 base_url = get_base_url(port)
 
